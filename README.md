@@ -1,12 +1,12 @@
 # Formulario HTML en Java con validaciones extendiendo con métodos de clases abstractas
 ## Java
-<p>Este formulario permite la creación de diferentes tipos de campos con validaciones específicas mediante clases abstractas y su especialización en clases derivadas. Gracias a esta estructura, es fácil agregar nuevos tipos de validadores o elementos de formulario según sea necesario.</p>
+<p>Este formulario HTML contiene diferentes tipos de campos con validaciones específicas mediante clases abstractas y sus clases derivadas. Gracias a esta estructura, es fácil agregar nuevos tipos de validadores o elementos de formulario según sea necesario.</p>
 
 **Estructura del Proyecto**
 <p>El proyecto está dividido en dos principales paquetes: validadores y elementos.</p>
 
 **Paquete validadores**
-<p>Este paquete contiene clases que definen las reglas de validación de los campos del formulario. Incluye:</p>
+<p>Este paquete contiene clases que definen las reglas de validación de los campos del formulario.</p>
 
 **Clase Abstracta Validador:** Clase base abstracta que define los métodos de validación que se extienden en validadores específicos. Permite centralizar la lógica de validación y extenderla según las necesidades de cada campo.
 
@@ -24,5 +24,5 @@
 **Elementos de Formulario:**
 
 - InputForm: Representa un campo de entrada de texto.
-- SelectForm: Representa un campo de selección (dropdown).
+- SelectForm: Representa un campo de selección.
 - TextAreaForm: Representa un área de texto multilínea.
